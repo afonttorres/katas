@@ -5,6 +5,8 @@ const fizzbuzz = (num)=>{
         return 'Buzz'
     }else if (num % 3 === 0){
         return 'Fizz'
+    }else{
+        return num
     }
 }
 

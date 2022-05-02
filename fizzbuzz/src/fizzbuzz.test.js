@@ -14,3 +14,8 @@ test('should return FizzBuzz when param is 5 & 3 div', ()=>{
     let result = fizzbuzz(30);
     expect(result).toBe('FizzBuzz');
 })
+
+test('should return param when param is not div by 3 & 5', ()=>{
+    let result = fizzbuzz(4);
+    expect(result).toBe(4);
+})
