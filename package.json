@@ -1,6 +1,7 @@
 {
   "name": "katas",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -15,7 +16,6 @@
     "url": "https://github.com/afonttorres/katas/issues"
   },
   "homepage": "https://github.com/afonttorres/katas#readme",
-  "description": "",
   "devDependencies": {
     "jest": "^28.0.3"
   }
