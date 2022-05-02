@@ -1,0 +1,22 @@
+{
+  "name": "katas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afonttorres/katas.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afonttorres/katas/issues"
+  },
+  "homepage": "https://github.com/afonttorres/katas#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
