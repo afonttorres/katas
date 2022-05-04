@@ -109,7 +109,7 @@ test('should return major num of nums2 (num1 & num2)', () => {
 //Suma tots els números d'un array
 test('should return sum of array nums', () => {
     //escenari
-    this.total = 0;
+    calculator.total = 0;
     let numArr = [1,2,3,4,5]
     calculator.sumArr(numArr);
     //acció

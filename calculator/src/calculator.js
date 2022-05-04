@@ -34,7 +34,7 @@ const calculator = {
         return Math.max(num1, num2)
     },
     sumArr(array) {
-        array.forEach(arrnum => this.total += arrnum);
+        array.map(arrnum => this.sum(arrnum));
     },
     returnPlus5(array) {
         return array.filter(arrnum => arrnum >= 5)
